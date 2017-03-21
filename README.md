@@ -5,8 +5,9 @@ This application allows you to **add, remove and update doctor's appointments**.
 Table of Contents:
 1. Overview
 2. Features
-3. Requirements
-4. Limitations (Known Issues)
+3. Installation
+4. Requirements
+5. Limitations (Known Issues)
 
 Overview
 ========
@@ -29,7 +30,6 @@ Doctor Appointment Booking Management is a simple web-based application to **add
 (^ denotes primary key)
 
 
-
 Features
 =========
 * There are 3 main operations. Add Appointment, Update Appointment and Remove Appointment.
@@ -42,6 +42,14 @@ Features
 
 * A booking has 4 inputs: username, reason for visit, appointment date and time.
 * "Reasons to visit" are predefined. Time slots are also predefined as weekdays, 9am to noon, 1pm to 4pm with a 1/2 time slot). Both informations are stored in the DB.
+
+
+Installation
+=============
+**This is a web-based application. You will need a server. As for the DB access, you can use AWS RDS that I've created. The DB details will be sent seperately via email.**
+1. Upload the zip file from GitHub to your server
+2. After unzipping the file, go to **config** folder and update the DB username and password that was sent via email. 
+3. Run index.php from a browser.
 
 
 Requirements
