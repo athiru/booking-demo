@@ -28,3 +28,28 @@ Database Structure:
 2. Table 2: name{REASONS_FOR_VISIT}, fields{ID^, REASON}
 3. Table 3: name{TIME_SEGMENTS}, fields{ID^, TIME_SEGMENTS}
 (^ denotes primary key)
+
+
+
+Features
+=========
+* There are 3 main operations. Add Appointment, Update Appointment and Remove Appointment.
+* Before and after a operation, the user is alerted with a **confirmation**.
+* When viewing all appointmens, data are put into an efficient (sortable/searchable) html table. 
+
+* The user can **book an appointment from an available time slot**.
+* After booking an appointment, the time slot become unavailable. Pass dates also become unavailable.
+* The user can anytime **remove or update the appointment**.
+
+* A booking has 4 inputs: username, reason for visit, appointment date and time.
+* Reasons to visit are predefined. Time slot are also predefined as weekdays, 9am to noon, 1pm to 4pm with a 1/2 time slot). Both informations are stored in DB.
+
+
+Requirements
+=============
+* PHP 4.7+
+
+
+Limitations (Known Issues)
+==========================
+* Pass appointment dates are disabled in the calender however the timings can be still be updated. 
