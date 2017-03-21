@@ -9,7 +9,7 @@ define('DB_USER', 'xxx');
 define('DB_PASSWORD', 'xxx');
 
 /** MySQL hostname */
-define('DB_HOST', 'eduprez5db.cb8l5ruzu25emg.ap-southeast-1.rds.amazonaws.com');
+define('DB_HOST', 'eduprezdb.cb8lruzu2emg.ap-southeast-1.rds.amazonaws.com');
 
 /** MySQL port */
 define('DB_PORT', '3306');
