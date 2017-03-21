@@ -1,30 +1,3 @@
-<!--
-function InitCustomTime(currentapptdate,currentappttime) {
-   var radios = document.getElementsByName('appt_time');
-   for (var i = 0; i< radios.length;  i++){
-   	radios[i].disabled = false;
-	document.getElementById("r"+i).style.color = "rgb(0, 0, 0)";
-   }
-	
-   $.post("php/book_appt_check_avail_time.php", { appt_date: currentapptdate},
-   function(data) {
-	var fields = data.split(',');
-	var arraycnt= fields.length -1;
-	if (arraycnt != 0) {
-	   for (i = 0; i < arraycnt; i++) {
-		var fval = fields[i];
-		if (currentappttime!= fval) { 
-   		   radios[fval].disabled = true;
-		   document.getElementById("r"+fval).style.color = "rgb(200, 200, 200)";
-		}
-	   }
-	radios[currentappttime].checked = true;
-	return false;
-	} 
-   });
-}
--->
-
 
 function UpdateAppointment() {
    var username = $("#username").val();
