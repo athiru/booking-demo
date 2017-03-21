@@ -13,14 +13,14 @@ Overview
 Doctor Appointment Booking Management is a simple web-based application to **add, remove and update doctor's appointment** from a set of **available time-slots in a calendar**. For demo purposes, all bookings are stored in AWS RDS free tier account. The bulk of the code written in PHP and JavaScript. 
 
 **File Structure:**<br>
-**config/** (configuration file)<br>
-**css/**(CSS files)<br>
-**js/** (JS functions)<br>
-**php/** (PHP functions & include files)<br>
-**index.php**<br>
-**add_appt_page.php** (add appointment page)<br>
-**list_all_appt_page.php** (list all appointments page)<br>
-**update_appt_page.php** (update an appointment page)<br>
+*config/* (configuration file)<br>
+*css/*(CSS files)<br>
+*js/* (JS functions)<br>
+*php/* (PHP functions & include files)<br>
+*index.php*<br>
+*add_appt_page.php* (add appointment page)<br>
+*list_all_appt_page.php* (list all appointments page)<br>
+*update_appt_page.php* (update an appointment page)<br>
 
 **Database Structure:**
 1. Table 1: name{APPOINTMENTS}, fields{REG_DATE, USERNAME^, REASON, APPT_DATE^, APPT_TIME^}
