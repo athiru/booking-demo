@@ -1,6 +1,6 @@
 # Doctor Appointment Booking Management
 
-Appointment Booking Application allows you to add, remove and update appointments from a set of available time-slots in a calendar.
+This application allows you to **add, remove and update doctor's appointments**.
 
 Table of Contents:
 1. Overview
@@ -10,10 +10,10 @@ Table of Contents:
 
 Overview
 ========
-Doctor Appointment Booking Management is a web-based application to **add, remove and update doctor's appointment** from a set of **available time-slots in a calendar**. For demo purposes, all bookings are stored in AWS RDS free tier account. The bulk of the code written in PHP and JavaScript. 
+Doctor Appointment Booking Management is a simple web-based application to **add, remove and update doctor's appointment** from a set of **available time-slots in a calendar**. For demo purposes, all bookings are stored in AWS RDS free tier account. The bulk of the code written in PHP and JavaScript. 
 
 File Structure:
-config/       				configuration file            
+config/       				configuration file\n            
 css/          				CSS files
 js/           				JS functions
 php/          				PHP functions & include files
