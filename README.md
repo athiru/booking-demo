@@ -22,8 +22,7 @@ add_appt_page.php			add appointment page<br>
 list_all_appt_page.php		list all appointments page<br>
 update_appt_page.php		update an appointment page<br>
 
-
-**8Database Structure:**
+**Database Structure:**
 1. Table 1: name{APPOINTMENTS}, fields{REG_DATE, USERNAME^, REASON, APPT_DATE^, APPT_TIME^}
 2. Table 2: name{REASONS_FOR_VISIT}, fields{ID^, REASON}
 3. Table 3: name{TIME_SEGMENTS}, fields{ID^, TIME_SEGMENTS}<br>
