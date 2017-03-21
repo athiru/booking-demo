@@ -37,6 +37,11 @@ $(document).ready(function() {
 
     } );
  
+   $("#ManageAppointmentsTable").on("click", function() {
+   	$(".iframe_presenterbox").colorbox({iframe:true, top:"100px", width:"850px", height:"550px",scrolling: false});
+   });
+
+	
     // Array to track the ids of the details displayed rows
     var detailRows = [];
  
