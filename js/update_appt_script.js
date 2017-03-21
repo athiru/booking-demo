@@ -86,7 +86,7 @@ function UpdateAppointment() {
     			   buttons: {
         			"OK": function() {
           			   $( this ).dialog( "close" );
-				   //parent.window.location.href = '?tab=2';
+				   parent.window.location.href = './?tab=2';
         		   	}
 			   }
     		   	});
